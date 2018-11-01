@@ -1,0 +1,141 @@
+﻿#custButton {
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+    #custButton:hover {
+        color: #2196F3;
+        text-decoration: underline
+    }
+
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Roboto, "Open Sans", Helvetica, Arial, sans-serif, serif;
+    line-height: 1.1;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    -ms-overflow-style: scrollbar;
+}
+
+h1 {
+    font-family: SegoeUI;
+    font-size: 2.285em;
+    color: #212121;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: SegoeUI; /*font-weight: bold;*/
+    font-size: 1.7em;
+    color: #212121;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: SegoeUI; /*font-weight: bold;*/
+    font-size: 1.43em;
+    color: #212121;
+    text-transform: uppercase;
+    padding: 0.8px;
+    margin: 0;
+    height: 36px;
+    vertical-align: middle;
+    background: #E4E4E4;
+}
+
+h4 {
+    font-family: SegoeUI; /*font-weight: bold;*/
+    font-size: 1.43em;
+    color: #212121;
+    padding: 0px;
+    margin: 0;
+}
+
+p {
+    font-family: SegoeUI;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+a {
+    font-family: SegoeUI-SemiBold;
+    font-size: 1em;
+}
+
+    a:link {
+        color: #2196F3;
+    }
+
+    a:visited {
+        color: #9933ff;
+    }
+
+    a:hover {
+        text-decoration: underline
+    }
+
+.note {
+    font-family: Segoe UI Italic;
+    font-size: .857em;
+    vertical-align: top;
+    padding: 4px, 0, 0, 0;
+    margin: 0px;
+    color: #878788;
+}
+
+.label {
+    font-family: SegoeUI-SemiBold;
+    font-size: 1em;
+    color: #212121;
+    vertical-align: bottom;
+    padding: 0,0,4px,0;
+    margin: 0;
+}
+
+label .error {
+    color: #CC0000;
+}
+
+/* Tabs and Wizard, 12px ALL CAPS stands out, differentiates from rest of content.*/
+
+.ups-tab {
+    font-size: 12px;
+}
+
+    .ups-tab ul.nav-tabs li a {
+        border: none !important;
+        background-color: none !important;
+        background: none !important;
+        padding: 0 !important;
+        font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+
+    .ups-tab ul.nav-tabs li {
+        text-transform: uppercase;
+        margin: 0; /*padding: 8px;*/
+        background-color: #FAFAFB;
+        border-top: 1px solid #FFFFFF !important;
+        border-right: 1px solid #E4E4E4; /*border-bottom: 1px solid #E4E4E4;*/ /*border-left: 1px solid #E4E4E4;*/
+        height: 50px;
+        padding: 15px;
+        font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+        .ups-tab ul.nav-tabs li.active {
+            background-color: #FFF;
+            color: #212121;
+            border-top: 1px solid #FFFFFF;
+            border-right: 1px solid #E4E4E4;
+            border-bottom: 3px solid #565657; /*border-left: 1px solid #E4E4E4;*/
+        }
+
+    .ups-tab ul.nav-tabs {
+        border: none !important;
+    }

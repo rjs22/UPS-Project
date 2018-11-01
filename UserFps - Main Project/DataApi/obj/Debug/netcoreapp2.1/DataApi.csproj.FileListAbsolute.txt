@@ -1,0 +1,14 @@
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\bin\Debug\netcoreapp2.1\DataApi.deps.json
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\bin\Debug\netcoreapp2.1\DataApi.runtimeconfig.json
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\bin\Debug\netcoreapp2.1\DataApi.runtimeconfig.dev.json
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\bin\Debug\netcoreapp2.1\DataApi.dll
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.csprojAssemblyReference.cache
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.csproj.CoreCompileInputs.cache
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.RazorAssemblyInfo.cache
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.RazorAssemblyInfo.cs
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.AssemblyInfoInputs.cache
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.AssemblyInfo.cs
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.RazorTargetAssemblyInfo.cache
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\bin\Debug\netcoreapp2.1\DataApi.pdb
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.dll
+C:\Users\SHX8RKD\source\repos\FPS_SummerCore2018\UserFps\DataApi\obj\Debug\netcoreapp2.1\DataApi.pdb

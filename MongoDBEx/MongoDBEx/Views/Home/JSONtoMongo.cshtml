@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "JSONtoMongo";
+}
+@using (Html.BeginForm())
+{
+    <h2>@ViewData["Title"]</h2>
+    <h4>@ViewData["return"]</h4>
+    <form asp-action="HomeController/JSONtoMongo" method="POST">
+        <input type="text" name="ven6" id="ven6" />
+        <br />
+        <button type="submit">Submit</button>
+    </form>
+}
+@*Html.Raw is necessary for the code coming from the database to be translated correctly.*@
+@section Scripts
+    {
+    <script>
+        @Html.Raw(ViewData["code"]);
+    </script>
+}

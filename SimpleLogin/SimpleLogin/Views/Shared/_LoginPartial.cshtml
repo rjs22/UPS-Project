@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Http
+
+@if (Context.Session.GetInt32("UserID") != null)
+{
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="thePopover">
+            <a href="#" data-placement="bottom" class="popoverMenu" class="dropdown-toggle" data-toggle="dropdown" data-original-title></a>
+        </li>
+        <li class="theDropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-user"></i>
+                <span>&nbsp;Hello USER</span>
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="userDropdown">
+                @* Dropdown links go in here. Example below *@
+                @*<li>
+                        <a href="#" data-link="Request" class="dropdown-toggle">
+                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                            Dropdown Item
+                        </a>
+                    </li>*@
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Logout">
+                        <i class="fa fa-external-link"></i>Logout
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a asp-area="" asp-controller="Home" asp-action="Login">Login</a></li>
+        <li><a asp-area="" asp-controller="Home" asp-action="Register">Register</a></li>
+    </ul>
+}

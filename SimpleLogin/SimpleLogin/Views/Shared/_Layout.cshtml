@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UXAMS Top Navigation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="~/css/UXStyles.v2.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/custom.css" rel="stylesheet" />
+</head>
+<body style="padding-top: 65px;">
+    <div class="navbar navbar-fixed-top navbar-default ups-top-navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <i aria-hidden="true" class="fa fa-bars" style="color:#FFF;font-size:18px;"></i></button>
+                <div class="leftHead col col-xs-8 col-sm-4 col-md-4">
+                    <div class="row">
+                        <div class="headerInset">
+                            <div class="zone zone-header">
+                                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                                    <img alt="Ups-Logo" class="img-responsive ups_logo" src="~/images/UPS_Logo.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <span class="brandingContainer"> <span class="brandingText">@ViewData["Title"]</span> </span>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse col-xs-12 col-sm-8 col-md-8 pull-right" id="navbar">
+
+                    @* Nav Bar links go in here. Examples below *@
+                    @*<ul class="nav navbar-nav">
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Index">
+                                    <i class="fa fa-object-group"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="About">
+                                    <i class="fa fa-object-group"></i>
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Contact">
+                                    <i class="fa fa-object-group"></i>
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>*@
+
+                    <partial name="_LoginPartial.cshtml" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <partial name="_CookieConsentPartial" />
+    @RenderBody()
+
+    <script src="~/js/jquery.min.js" type="text/javascript"></script>
+    <script src="~/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/js/popover.js" type="text/javascript"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

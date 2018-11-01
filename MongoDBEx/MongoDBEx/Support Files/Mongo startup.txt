@@ -1,0 +1,5 @@
+Hey guys, Just finished this. If you ever decided you want to go with MongoDB, this is pretty much the proof-of-concenpt of it working in the C# invironment
+To get your environment setup, first you will need to download MongoDB. I used the community version. Next, take a look at the MongoDB Server.txt
+to take a look at the commands prompts you need to run to start up the server. The VS environment is pretty much the same and any other .net core app.
+all the code is commented and explains how everything works. If you need further assistance, i will include my Bookmarks that i used for this as well.
+Been a great summer! Enjoy!

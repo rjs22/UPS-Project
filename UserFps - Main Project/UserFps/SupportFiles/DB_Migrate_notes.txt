@@ -1,0 +1,17 @@
+﻿// Used to recreate the database from models and database context:
+// !!Warning: ensure that the project builds before executing commands, you will recieve a no-context error if not doing so.
+
+Add-Migration Initial -Context UserContext // "User" = Name of context
+Update-Database
+
+// More notes on create/recreate database:
+// if you change anything with the database, ensure that you delete everything in the Migrations directory before attempting to recreate.
+// If you are recreating a database, its easiest to delete the database you are using before attempting to recreate.
+
+// used to scaffold a currently existing database into a project:
+
+Scaffold-DbContext "SQL Database conntection string goes here with quotes" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+// More notes on scaffold existing database
+// ensure models directory is created (might not be necessary)
+// must have permissions within database in order to execute this command.
